@@ -35,3 +35,17 @@ console.log('||');
 console.log('New line should be created.\nNew line');
 console.log('Tab space is created.\t\tTab space.');
 console.log('Tab space is created.\t\bTab space.');
+
+// 6.Find the length of a string
+var task = 'Learning';
+console.log(task.length);
+
+//7. String is immutable
+let string = 'mtring';
+//We can't do following to fix above string
+string[0] = 'S';
+//Nothing will change, value of string will be same "mstring"
+console.log(string);
+//Only way to fix it is
+string = 'String';
+console.log(string);
