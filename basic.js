@@ -73,3 +73,14 @@ console.log(nestedArray);
 const myArray = [50, 60, 70];
 const myData = myArray[0];
 console.log(myData);
+
+// 11. Access Multi-Dimensional array
+var multiArray = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14],
+];
+// Only change code below this line.
+var multiData = multiArray[0][0];
+console.log(multiData);
