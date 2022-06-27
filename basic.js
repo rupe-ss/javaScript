@@ -84,3 +84,14 @@ var multiArray = [
 // Only change code below this line.
 var multiData = multiArray[0][0];
 console.log(multiData);
+
+// 12. Array push and pop functions
+const arrayPushPop = [1, 2, 3, 4, 5];
+// Pushing element of array
+arrayPushPop.push(6);
+// Pushing entire array into an array
+arrayPushPop.push(['a', 'b', 'c']);
+arrayPushPop.push(7);
+console.log(arrayPushPop);
+arrayPushPop.pop();
+console.log(arrayPushPop);
