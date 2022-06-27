@@ -4,3 +4,9 @@ function reusable() {
 }
 
 reusable();
+
+// 16. Passing arguments/parameters in functions
+function argFunction(a, b) {
+    return a + b;
+}
+console.log(argFunction(4, 5));
