@@ -95,3 +95,12 @@ arrayPushPop.push(7);
 console.log(arrayPushPop);
 arrayPushPop.pop();
 console.log(arrayPushPop);
+
+// Shift and unshift from array
+const arrayShiftUnshift = ['a', 'b', 'c', 'd'];
+// 13. Unshift will push a member infront of array
+arrayShiftUnshift.unshift('e');
+console.log(arrayShiftUnshift);
+// 14. Shift will pop a member from beginning of array
+arrayShiftUnshift.shift();
+console.log(arrayShiftUnshift);
