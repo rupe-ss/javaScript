@@ -12,6 +12,10 @@ const dataTypes = [
     'boolean',
     'symbol',
 ];
+// We can check the variable type with keyword typeof
+let age = 25;
+console.log(typeof dataTypes);
+console.log(typeof age);
 
 //4. How to skip quotation in JavaScript
 let statement = '"I am skipping a quotation"';
@@ -31,10 +35,11 @@ Ir carriage return
 \b backspace
 \ f form feed
 */
-console.log('||');
+console.log('\\\\');
 console.log('New line should be created.\nNew line');
 console.log('Tab space is created.\t\tTab space.');
 console.log('Tab space is created.\t\bTab space.');
+console.log('\rCarriage Return');
 
 // 6.Find the length of a string
 var task = 'Learning';
