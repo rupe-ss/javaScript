@@ -59,3 +59,12 @@ console.log(string);
 // We can get the character by using the length key word but we can't replace just a single character from a string.
 console.log(string.length);
 console.log(string[string.length - 1]);
+
+//9. Array and Nested Array
+const array = ['Football', 'Baseketball', 'Volleyball'];
+const nestedArray = [
+    ['Apple', 1],
+    ['Ball', 2],
+];
+console.log(array, typeof array);
+console.log(nestedArray);
