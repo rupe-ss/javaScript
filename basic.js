@@ -54,3 +54,8 @@ console.log(string);
 //Only way to fix it is
 string = 'String';
 console.log(string);
+
+//8. Finding nth character in String
+// We can get the character by using the length key word but we can't replace just a single character from a string.
+console.log(string.length);
+console.log(string[string.length - 1]);
