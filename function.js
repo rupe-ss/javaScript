@@ -10,3 +10,9 @@ function argFunction(a, b) {
     return a + b;
 }
 console.log(argFunction(4, 5));
+
+// 17. JavaScript variable global scope
+function globalScope() {
+    //When I practice this global variable is not visible anymore. Maybe this is no longer applicable in javaScript.
+    oopsGlobal = 5;
+}
