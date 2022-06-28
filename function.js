@@ -16,3 +16,13 @@ function globalScope() {
     //When I practice this global variable is not visible anymore. Maybe this is no longer applicable in javaScript.
     oopsGlobal = 5;
 }
+//console.log(oopsGlobal);
+
+// 18. Equality Operators ( == , ===, ! =, ! ==, >, > =, < =)
+function equality() {
+    // Difference between '==' and '===' datatype should match too for '==='
+    if (3 == '3') {
+        return true;
+    } else return false;
+}
+console.log(equality());
