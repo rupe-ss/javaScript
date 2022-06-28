@@ -107,3 +107,25 @@ function golfScore(par, strokes) {
     }
 }
 console.log(golfScore(5, 2));
+
+// 25. Switch Statement
+const switchStatement = (val) => {
+    let answer = '';
+    switch (val) {
+        case 1:
+            answer = 'alpha';
+            break;
+        case 2:
+            answer = 'beta';
+            break;
+        case 3:
+            answer = 'gamma';
+            break;
+        case 4:
+            answer = 'theta';
+        default:
+            answer = 'pheta';
+    }
+    return answer;
+};
+console.log(switchStatement(5));
