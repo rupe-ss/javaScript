@@ -35,3 +35,14 @@ function andOrOperator() {
     }
 }
 console.log(andOrOperator());
+
+// 20. If/Else statement
+function ifElseStatement() {
+    const name = 'Dogi';
+    if (name == 'Dog') {
+        console.log('It is a animal.');
+    } else {
+        console.log(`I don't know what is it.`);
+    }
+}
+ifElseStatement();
