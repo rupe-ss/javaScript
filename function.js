@@ -26,3 +26,12 @@ function equality() {
     } else return false;
 }
 console.log(equality());
+
+// 19. And/Or Operators (< = && > = || )
+function andOrOperator() {
+    const age = 4;
+    if (age < 5 && age > 0) {
+        return 'Child is infant.';
+    }
+}
+console.log(andOrOperator());
