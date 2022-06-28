@@ -46,3 +46,14 @@ function ifElseStatement() {
     }
 }
 ifElseStatement();
+
+// 21. Else if statement
+function elseIfStatement() {
+    let number;
+    if (1 == '2') {
+        return (number = 1);
+    } else if (2 == '2') {
+        return (number = 2);
+    }
+}
+console.log(elseIfStatement());
