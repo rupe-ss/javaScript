@@ -129,3 +129,17 @@ const switchStatement = (val) => {
     return answer;
 };
 console.log(switchStatement(5));
+
+// 26. Default option in switch statement
+function defaultOption(value) {
+    let number;
+    switch (value) {
+        case '10':
+            number = 5;
+            break;
+        default:
+            number = 0;
+    }
+    return number;
+}
+console.log(defaultOption('10'));
