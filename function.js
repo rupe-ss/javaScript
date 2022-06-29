@@ -143,3 +143,10 @@ function defaultOption(value) {
     return number;
 }
 console.log(defaultOption('10'));
+
+// 27. Returning boolean value from Function
+// We can directly return boolean value from function, example below.
+function booleanValue(a, b) {
+    return a < b;
+}
+console.log(booleanValue(10, 5));
