@@ -144,6 +144,25 @@ function defaultOption(value) {
 }
 console.log(defaultOption('10'));
 
+// 26.a Multiple identical option in switch Statements
+function multipleIdentical(val) {
+    var answer = '';
+    switch (val) {
+        case 1:
+        case 2:
+        case 3:
+            answer = 'Low';
+            break;
+        case 4:
+        case 5:
+        case 6:
+            answer = 'High';
+            break;
+    }
+    return answer;
+}
+console.log(multipleIdentical(6));
+
 // 27. Returning boolean value from Function
 // We can directly return boolean value from function, example below.
 function booleanValue(a, b) {
