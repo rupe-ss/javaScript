@@ -27,6 +27,17 @@ var testObj = {
 console.log(testObj['an entree']);
 console.log(testObj['the drink']);
 
+// 32. a) Adding new properties to Object
+const myDog = {
+    name: 'Happy Coder',
+    legs: 4,
+    tails: 1,
+    friends: ['Harkey', 'Hari'],
+};
+
+myDog.bark = 'woof';
+console.log(myDog);
+
 // 33. Testing if object has the property(hasOwnProperty)
 function checkObj(checkProp) {
     var myObj = {
