@@ -179,3 +179,24 @@ function earlyPattern(a, b) {
     return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
 }
 console.log(earlyPattern(3, 6));
+
+// 29. Counting counts (Small Blackjack concept)
+function countingCounts(card) {
+    let count = 0;
+    switch (card) {
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            count++;
+            break;
+    }
+    return 'Change Me';
+}
+countingCounts(2);
+countingCounts(3);
+countingCounts(7);
+countingCounts('K');
+countingCounts('A');
+console.log(countingCounts(6));
