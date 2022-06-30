@@ -89,3 +89,15 @@ function updateRecords(records, id, prop, value) {
 
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 console.log(recordCollection);
+
+// 34. a Short Circuit Evaluation
+function shortCircuit() {
+    var a; // undefined (falsy value)
+    var b = null; // null (falsy value)
+    var c = undefined; //undefined (falsy value)
+    var d = 4; // number (NOT falsy)
+    var e = 'five'; // assigment short circuits before reaching here
+    var f = a || b || c || d || e;
+    return f;
+}
+console.log(shortCircuit());
