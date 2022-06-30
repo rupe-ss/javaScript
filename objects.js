@@ -34,6 +34,10 @@ function checkObj(checkProp) {
         pet: 'kitten',
         bed: 'sleigh',
     };
+    if (myObj.gift == 'pony') {
+        delete myObj.gift;
+    }
+    console.log(myObj);
     if (myObj.hasOwnProperty(checkProp)) {
         return myObj[checkProp];
     } else {
