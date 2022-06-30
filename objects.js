@@ -6,3 +6,13 @@ const javaScriptObject = {
     Age: 3,
 };
 console.log(typeof javaScriptObject, javaScriptObject);
+
+// 31. Accessing Object properties with dot notation
+// We can't access a value which has property of two words.
+const object = {
+    name: 'Brutin',
+    'Eye color': 'Blue',
+    Age: 3,
+};
+console.log(object.name);
+console.log(object['Eye color']);
