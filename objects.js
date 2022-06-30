@@ -16,3 +16,13 @@ const object = {
 };
 console.log(object.name);
 console.log(object['Eye color']);
+
+// 32. Accessing object properties with bracket notation
+// Setup
+var testObj = {
+    'an entree': 'hamburger',
+    'my side': 'veggies',
+    'the drink': 'water',
+};
+console.log(testObj['an entree']);
+console.log(testObj['the drink']);
