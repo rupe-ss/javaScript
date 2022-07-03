@@ -146,3 +146,24 @@ function makeList(arr) {
 
 const resultDisplayArray = makeList(result.failure);
 console.log(resultDisplayArray);
+
+// 36. Concise object literal declarations using simple fields
+// Usually we write this way:-
+const createDog = (name, age, gender) => {
+    return {
+        name: name,
+        age: age,
+        gender: gender,
+    };
+};
+console.log(createDog('Brutin', 2, 'Male'));
+
+const createPerson = (name, age, gender) => {
+    return { name, age, gender };
+};
+console.log(createPerson('Girl', '17', 'Female'));
+/* Output {
+    "name": "Girl",
+    "age": "17",
+    "gender": "Female"
+} */
