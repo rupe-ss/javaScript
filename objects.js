@@ -167,3 +167,23 @@ console.log(createPerson('Girl', '17', 'Female'));
     "age": "17",
     "gender": "Female"
 } */
+
+// 37. Write concise declaration functions
+const bicycle = {
+    gear: 2,
+    // An object can have a function as well. This is how we declare functions in javaScript
+    setGear: function (newGear) {
+        // With strict mode, you can not, for example, use undeclared variables.
+        'use strict';
+        this.gear = newGear;
+    },
+    // New way of declaring function
+    resetGear(resetGear) {
+        'use strict';
+        this.gear = resetGear;
+    },
+};
+bicycle.setGear(3);
+console.log(bicycle.gear);
+bicycle.resetGear(5);
+console.log(bicycle.gear);
