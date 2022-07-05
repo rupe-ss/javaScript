@@ -58,14 +58,17 @@ thermos.temperature = 36;
 console.log(thermos.temperature);
 
 // 40. Understand the differences between import and require
-import { capitalizeString } from './string_function.js';
-
-const cap = capitalizeString('Hello!');
-
+import * as capitalizeStrings from './string_function.js';
+const cap = capitalizeStrings.capitalizeString('Hello!');
 console.log(cap);
 
 // 41. Use export and import to reuse a code block, function or variables
-import { capitalizeStr, foo, bar } from './string_function.js';
-console.log(capitalizeStr('apple'));
-console.log(foo);
-console.log(bar);
+//import { capitalizeStr, foo, bar } from './string_function.js';
+// console.log(capitalizeStr('apple'));
+// console.log(foo);
+// console.log(bar);
+
+// 42. Use * to import everything from a file
+console.log(capitalizeStrings.capitalizeStr('apple'));
+console.log(capitalizeStrings.foo);
+console.log(capitalizeStrings.bar);
