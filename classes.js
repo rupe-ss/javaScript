@@ -63,3 +63,9 @@ import { capitalizeString } from './string_function.js';
 const cap = capitalizeString('Hello!');
 
 console.log(cap);
+
+// 41. Use export and import to reuse a code block, function or variables
+import { capitalizeStr, foo, bar } from './string_function.js';
+console.log(capitalizeStr('apple'));
+console.log(foo);
+console.log(bar);
