@@ -72,3 +72,8 @@ console.log(cap);
 console.log(capitalizeStrings.capitalizeStr('apple'));
 console.log(capitalizeStrings.foo);
 console.log(capitalizeStrings.bar);
+
+// 43. Create an export fallback with export default
+// I get error while importing from another file, not sure why.
+// I get below error "net::ERR_ABORTED 404 (Not Found)"
+// import { name } from './classPractice';
