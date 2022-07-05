@@ -51,8 +51,15 @@ function changeTemp() {
     return Thermostat;
 }
 
-const Thermostat = makeClass();
+const Thermostat = changeTemp();
 const thermos = new Thermostat(76);
 let temp = thermos.temperature;
 thermos.temperature = 36;
 console.log(thermos.temperature);
+
+// 40. Understand the differences between import and require
+import { capitalizeString } from './string_function.js';
+
+const cap = capitalizeString('Hello!');
+
+console.log(cap);
